@@ -2,6 +2,7 @@ GLPI Docker images
 ##################
 
 glpi-backend : based on php:fpm-alpine image.  
+
 gpli-frontend: based on nginx:alpine image.  
 
 Those images have been designed to illustrate a workshop, no
