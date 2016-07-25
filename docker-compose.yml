@@ -12,14 +12,14 @@ services:
     networks:
      - ...
   fpm-servers:
-    #image: eesprit/glpi-backend:0.90.4
+    #image: eesprit/glpi-backend:0.90.4.1
     build: glpi-backend
     volumes:
      - ...
     networks:
      - ...
   frontend:
-    #image: eesprit/glpi-frontend:0.90.4
+    #image: eesprit/glpi-frontend:0.90.4.1
     build: glpi-frontend
     ports:
      - "8001:80"
